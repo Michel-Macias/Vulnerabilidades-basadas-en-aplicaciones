@@ -1,0 +1,23 @@
+# Archivos y directorios ignorados por Git
+
+# Archivos específicos del proyecto
+GEMINI.md
+
+# Directorios de prácticas personales
+mis-practicas/
+
+# Archivos de configuración y temporales del sistema operativo/IDE
+.DS_Store
+.vscode/
+*.log
+*.tmp
+*~
+
+# Directorios de dependencias y compilación (ejemplos, no todos aplicables a este proyecto)
+node_modules/
+target/
+build/
+dist/
+
+# Archivos sensibles (ej. contraseñas, claves)
+pass_gvm/
