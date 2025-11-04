@@ -19,6 +19,7 @@ A continuación se muestra la estructura de temas y laboratorios disponibles en 
 
 | # | Tema | Apuntes Teóricos | Laboratorios |
 |:--|:---|:---|:---|
+| 0 | Guía de Pentesting Profesional | [Ver Guía](./0-guia-pentesting-profesional.md) | |
 | 1 | El Protocolo HTTP | [Ver Teoría](./1-protocolo-http/teoria.md) | [Básico](./1-protocolo-http/laboratorio.md) / [Avanzado (Docker)](./1-protocolo-http/laboratorio-docker.md) |
 | 2 | Sesiones Web | [Ver Teoría](./2-sesiones-web/teoria.md) | [Burp Suite](./2-sesiones-web/laboratorio.md) |
 | 3 | OWASP Top 10 | [Ver Teoría](./3-owasp-top-10/teoria.md) | (Ver temas específicos) |
