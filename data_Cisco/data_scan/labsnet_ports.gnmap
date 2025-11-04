@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Mon Nov  3 01:28:01 2025 as: /usr/lib/nmap/nmap -sS -p- --min-rate 1000 -T4 -sV -O --open -oA ./Documents/TareaCisco_tema-6/labsnet_ports 172.18.0.0/16
+Host: 172.18.0.2 ()	Status: Up
+Host: 172.18.0.2 ()	Ports: 5001/open/tcp//http//CherryPy wsgiserver/	Ignored State: closed (65534)	OS: Linux 4.15 - 5.19	Seq Index: 262	IP ID Seq: All zeros
+Host: 172.18.0.4 ()	Status: Up
+Host: 172.18.0.4 ()	Ports: 3000/open/tcp//ppp?///	Ignored State: closed (65534)	OS: Linux 4.15 - 5.19	Seq Index: 256	IP ID Seq: All zeros
+Host: 172.18.0.5 ()	Status: Up
+Host: 172.18.0.5 ()	Ports: 8080/open/tcp//http-proxy///, 9001/open/tcp//jdbc//HSQLDB JDBC (Network Compatibility Version 2.3.4.0)/	Ignored State: closed (65533)	OS: Linux 4.15 - 5.19	Seq Index: 262	IP ID Seq: All zeros
+Host: 172.18.0.6 ()	Status: Up
+Host: 172.18.0.6 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.25 ((Debian))/	Ignored State: closed (65534)	OS: Linux 4.15 - 5.19	Seq Index: 251	IP ID Seq: All zeros
+# Nmap done at Mon Nov  3 01:31:55 2025 -- 65536 IP addresses (6 hosts up) scanned in 234.32 seconds

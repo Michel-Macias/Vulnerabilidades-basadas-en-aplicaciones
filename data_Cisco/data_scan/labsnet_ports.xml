@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Mon Nov  3 01:28:01 2025 as: /usr/lib/nmap/nmap -sS -p- -&#45;min-rate 1000 -T4 -sV -O -&#45;open -oA ./Documents/TareaCisco_tema-6/labsnet_ports 172.18.0.0/16 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sS -p- -&#45;min-rate 1000 -T4 -sV -O -&#45;open -oA ./Documents/TareaCisco_tema-6/labsnet_ports 172.18.0.0/16" start="1762129681" startstr="Mon Nov  3 01:28:01 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.2" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:02" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.3" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:03" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.4" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:04" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.5" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:05" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.6" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:06" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1762129689" endtime="1762129771"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.2" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:02" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="reset" count="65534" proto="tcp" ports="1-5000,5002-65535"/>
+</extraports>
+<port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="CherryPy wsgiserver" method="probed" conf="10"><cpe>cpe:/a:cherrypy:cherrypy</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="5001"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="31062"/>
+<osmatch name="Linux 4.15 - 5.19" accuracy="100" line="70534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="390924" lastboot="Wed Oct 29 12:54:08 2025"/>
+<distance value="1"/>
+<tcpsequence index="262" difficulty="Good luck!" values="378515F5,2B9997FE,626A67D0,DE472DA6,A4E6A4F4,42839043"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="174CF81E,174CF884,174CF8E9,174CF94D,174CF9B1,174CFA17"/>
+<times srtt="74" rttvar="32" to="100000"/>
+</host>
+<host starttime="1762129689" endtime="1762129771"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.4" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:04" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="reset" count="65534" proto="tcp" ports="1-2999,3001-65535"/>
+</extraports>
+<port protocol="tcp" portid="3000"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ppp" servicefp="SF-Port3000-TCP:V=7.95%I=7%D=11/3%Time=6907F727%P=x86_64-pc-linux-gnu%r(GetRequest,101B9,&quot;HTTP/1\.1\x20200\x20OK\r\nAccess-Control-Allow-Origin:\x20\*\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20SAMEORIGIN\r\nFeature-Policy:\x20payment\x20&apos;self&apos;\r\nX-Recruiting:\x20/#/jobs\r\nAccept-Ranges:\x20bytes\r\nCache-Control:\x20public,\x20max-age=0\r\nLast-Modified:\x20Mon,\x2003\x20Nov\x202025\x2000:12:14\x20GMT\r\nETag:\x20W/\&quot;124fa-19a470ea953\&quot;\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nContent-Length:\x2075002\r\nVary:\x20Accept-Encoding\r\nDate:\x20Mon,\x2003\x20Nov\x202025\x2000:28:23\x20GMT\r\nConnection:\x20close\r\n\r\n&lt;!-&#45;\n\x20\x20~\x20Copyright\x20\(c\)\x202014-2025\x20Bjoern\x20Kimminich\x20&amp;\x20the\x20OWASP\x20Juice\x20Shop\x20contributors\.\n\x20\x20~\x20SPDX-License-Identifier:\x20MIT\n\x20\x20-&#45;&gt;\n\n&lt;!doctype\x20html&gt;\n&lt;html\x20lang=\&quot;en\&quot;\x20data-beasties-container&gt;\n&lt;head&gt;\n\x20\x20&lt;meta\x20charset=\&quot;utf-8\&quot;&gt;\n\x20\x20&lt;title&gt;OWASP\x20Juice\x20Shop&lt;/title&gt;\n\x20\x20&lt;meta\x20name=\&quot;description\&quot;\x20content=\&quot;Probably\x20the\x20most\x20modern\x20and\x20sophisticated\x20insecure\x20web\x20application\&quot;&gt;\n\x20\x20&lt;meta\x20name=\&quot;viewport\&quot;\x20content=\&quot;width=device-width,\x20initial-scale=1\&quot;&gt;\n\x20\x20&lt;link\x20id=\&quot;favicon\&quot;\x20rel=\&quot;icon\&quot;\x20&quot;)%r(Help,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(NCP,2F,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n&quot;)%r(HTTPOptions,EA,&quot;HTTP/1\.1\x20204\x20No\x20Content\r\nAccess-Control-Allow-Origin:\x20\*\r\nAccess-Control-Allow-Methods:\x20GET,HEAD,PUT,PATCH,POST,DELETE\r\nVary:\x20Access-Control-Request-Headers\r\nContent-Length:\x200\r\nDate:\x20Mon,\x2003\x20Nov\x202025\x2000:28:23\x20GMT\r\nConnection:\x20close\r\n\r\n&quot;)%r(RTSPRequest,EA,&quot;HTTP/1\.1\x20204\x20No\x20Content\r\nAccess-Control-Allow-Origin:\x20\*\r\nAccess-Control-Allow-Methods:\x20GET,HEAD,PUT,PATCH,POST,DELETE\r\nVary:\x20Access-Control-Request-Headers\r\nContent-Length:\x200\r\nDate:\x20Mon,\x2003\x20Nov\x202025\x2000:28:23\x20GMT\r\nConnection:\x20close\r\n\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="3000"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="30148"/>
+<osmatch name="Linux 4.15 - 5.19" accuracy="100" line="70534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1741827" lastboot="Mon Oct 13 22:39:05 2025"/>
+<distance value="1"/>
+<tcpsequence index="256" difficulty="Good luck!" values="C989628A,ECD56582,A450E764,ECA4EEDA,93ECC687,B58E5A16"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="67D21F2D,67D21F93,67D21FF8,67D2205C,67D220C0,67D22126"/>
+<times srtt="44" rttvar="22" to="100000"/>
+</host>
+<host starttime="1762129689" endtime="1762129772"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.5" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:05" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="reset" count="65533" proto="tcp" ports="1-8079,8081-9000,9002-65535"/>
+</extraports>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http-proxy" servicefp="SF-Port8080-TCP:V=7.95%I=7%D=11/3%Time=6907F722%P=x86_64-pc-linux-gnu%r(GetRequest,65,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x200\r\nDate:\x20Mon,\x2003\x20Nov\x202025\x2000:28:18\x20GMT\r\n\r\n&quot;)%r(HTTPOptions,65,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x200\r\nDate:\x20Mon,\x2003\x20Nov\x202025\x2000:28:18\x20GMT\r\n\r\n&quot;)%r(RTSPRequest,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(FourOhFourRequest,65,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nContent-Length:\x200\r\nDate:\x20Mon,\x2003\x20Nov\x202025\x2000:28:18\x20GMT\r\n\r\n&quot;)%r(Socks5,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(GenericLines,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(Help,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(SSLSessionReq,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(TerminalServerCookie,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(TLSSessionReq,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(Kerberos,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(SMBProgNeg,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(LPDString,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(LDAPSearchReq,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(SIPOptions,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(WMSRequest,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;)%r(oracle-tns,42,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\r\n&quot;);" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="9001"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="jdbc" product="HSQLDB JDBC" extrainfo="Network Compatibility Version 2.3.4.0" method="probed" conf="10"><cpe>cpe:/a:hsql:hsqldb</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="8080"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="33841"/>
+<osmatch name="Linux 4.15 - 5.19" accuracy="100" line="70534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1726874" lastboot="Tue Oct 14 02:48:18 2025"/>
+<distance value="1"/>
+<tcpsequence index="262" difficulty="Good luck!" values="4AED196B,BDE8BF1B,C06F9697,675C243,C7F4C2B5,584C0CF3"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="66EDF40C,66EDF472,66EDF4D7,66EDF53B,66EDF5A1,66EDF608"/>
+<times srtt="73" rttvar="51" to="100000"/>
+</host>
+<host starttime="1762129689" endtime="1762129771"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.18.0.6" addrtype="ipv4"/>
+<address addr="02:42:AC:12:00:06" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="reset" count="65534" proto="tcp" ports="1-79,81-65535"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.25" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.25</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="34947"/>
+<osmatch name="Linux 4.15 - 5.19" accuracy="100" line="70534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2007142" lastboot="Fri Oct 10 20:57:10 2025"/>
+<distance value="1"/>
+<tcpsequence index="251" difficulty="Good luck!" values="8AC22E69,CC1A1BAB,A6020369,87B608B1,6870ABBF,511FCEAD"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="77A28008,77A2806E,77A280D3,77A28138,77A2819D,77A28204"/>
+<times srtt="32" rttvar="18" to="100000"/>
+</host>
+<runstats><finished time="1762129915" timestr="Mon Nov  3 01:31:55 2025" summary="Nmap done at Mon Nov  3 01:31:55 2025; 65536 IP addresses (6 hosts up) scanned in 234.32 seconds" elapsed="234.32" exit="success"/><hosts up="6" down="65530" total="65536"/>
+</runstats>
+</nmaprun>
