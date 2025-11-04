@@ -21,3 +21,6 @@ dist/
 
 # Archivos sensibles (ej. contraseñas, claves)
 pass_gvm/
+
+# Datos de escaneo y raw data
+data_Cisco/

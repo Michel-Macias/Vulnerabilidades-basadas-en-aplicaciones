@@ -24,6 +24,7 @@ A continuación se muestra la estructura de temas y laboratorios disponibles en 
 | 2 | Sesiones Web | [Ver Teoría](./2-sesiones-web/teoria.md) | [Burp Suite](./2-sesiones-web/laboratorio.md) |
 | 3 | OWASP Top 10 | [Ver Teoría](./3-owasp-top-10/teoria.md) | (Ver temas específicos) |
 | 4 | Escaneo Automatizado | [Ver Teoría](./4-escaneo-automatizado/teoria.md) | [Nikto](./4-escaneo-automatizado/laboratorio-nikto.md) / [GVM](./4-escaneo-automatizado/laboratorio-gvm.md) |
+| 5 | Autenticación | [Ver Teoría](./5-autenticacion/teoria.md) | [Laboratorio](./5-autenticacion/laboratorio.md) |
 
 ## 🚀 ¿Cómo usar este repositorio?
 
